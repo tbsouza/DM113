@@ -1,0 +1,15 @@
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\bin\Debug\ServicoEstoque.dll.config
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\bin\Debug\ServicoEstoque.dll
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\bin\Debug\ServicoEstoque.pdb
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\bin\Debug\EntityFramework.dll
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\bin\Debug\EstoqueEntityModel.dll
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\bin\Debug\EstoqueEntityModel.pdb
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\bin\Debug\EstoqueEntityModel.dll.config
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\bin\Debug\EntityFramework.xml
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\obj\Debug\ServicoEstoqueLibrary.csprojAssemblyReference.cache
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\obj\Debug\ServicoEstoqueLibrary.csproj.CoreCompileInputs.cache
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\obj\Debug\ServicoEstoqueLibrary.csproj.CopyComplete
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\obj\Debug\ServicoEstoque.dll
+C:\Users\tbsou\Desktop\DM113\DM113\ServicoEstoque\obj\Debug\ServicoEstoque.pdb

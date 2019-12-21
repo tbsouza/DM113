@@ -5,9 +5,16 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstoqueEntityModel", "EstoqueEntityModel\EstoqueEntityModel.csproj", "{A71A36E0-C7E3-4595-BB61-3DA510FC735D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoEstoque", "ServicoEstoque\ServicoEstoque.csproj", "{43B976F7-E36E-4CB8-B68C-DFAE191333CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoEstoqueLibrary", "ServicoEstoque\ServicoEstoqueLibrary.csproj", "{43B976F7-E36E-4CB8-B68C-DFAE191333CA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProvedorEstoqueHost", "ProvedorEstoqueHost\ProvedorEstoqueHost.csproj", "{38FD1200-4EC1-4F5D-9EB2-537298F49834}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43B976F7-E36E-4CB8-B68C-DFAE191333CA} = {43B976F7-E36E-4CB8-B68C-DFAE191333CA}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServicoEstoque1", "ServicoEstoque1\ServicoEstoque1.csproj", "{EB3DF0AC-E6B4-4BAC-91A4-ADA41E569492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client1", "Client1\Client1.csproj", "{B8AD3EF9-2B9C-4E80-BE24-59098D90E5C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +34,14 @@ Global
 		{38FD1200-4EC1-4F5D-9EB2-537298F49834}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FD1200-4EC1-4F5D-9EB2-537298F49834}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FD1200-4EC1-4F5D-9EB2-537298F49834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB3DF0AC-E6B4-4BAC-91A4-ADA41E569492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3DF0AC-E6B4-4BAC-91A4-ADA41E569492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3DF0AC-E6B4-4BAC-91A4-ADA41E569492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3DF0AC-E6B4-4BAC-91A4-ADA41E569492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8AD3EF9-2B9C-4E80-BE24-59098D90E5C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AD3EF9-2B9C-4E80-BE24-59098D90E5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AD3EF9-2B9C-4E80-BE24-59098D90E5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AD3EF9-2B9C-4E80-BE24-59098D90E5C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

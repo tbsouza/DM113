@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1bc58570-0c0a-4bf5-86bd-fa09d39f23ca" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/ServicoEstoque/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="01.wsdl" MetadataType="Wsdl" ID="78634061-dde3-4f48-956e-569006b4d938" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServicoEstoque/Service1/mex" />
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="0b79184f-4b87-4b8d-8442-293d6613503a" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServicoEstoque/Service1/mex" />
+    <MetadataFile FileName="01.xsd" MetadataType="Schema" ID="599f597c-8b19-41df-ad08-b5c1cbd4c71c" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServicoEstoque/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="5a41275a-983d-43b1-8eed-5ffba7e15e82" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServicoEstoque/Service1/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="b036befd-f0c5-4a7f-ab98-0bbf3f7d3cc4" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServicoEstoque/Service1/mex" />
+    <MetadataFile FileName="ServicoEstoque.xsd" MetadataType="Schema" ID="8f126ae1-4a32-4083-a589-4c9faa0337c5" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/ServicoEstoque/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

@@ -103,9 +103,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ServicoEstoque\ServicoEstoque.csproj">
+    <ProjectReference Include="..\ServicoEstoque\ServicoEstoqueLibrary.csproj">
       <Project>{43B976F7-E36E-4CB8-B68C-DFAE191333CA}</Project>
-      <Name>ServicoEstoque</Name>
+      <Name>ServicoEstoqueLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

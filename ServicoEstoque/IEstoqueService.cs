@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
-
 using System.ServiceModel;
 
-namespace Estoque
+namespace ServicoEstoque
 {
     // Definição do contrato de dados
     [DataContract]
@@ -23,7 +22,7 @@ namespace Estoque
     }
 
     // Definiçao do contrato de serviço v1
-    [ServiceContract]
+    [ServiceContract(Namespace = "http://projetoavaliativo.dm113/01", Name = "IServicoEstoque")]
     public interface IEstoqueService
     {
         [OperationContract]
@@ -49,7 +48,7 @@ namespace Estoque
     }
 
     // Definiçao do contrato de serviço v1
-    [ServiceContract]
+    [ServiceContract(Namespace = "http://projetoavaliativo.dm113/02", Name = "IServicoEstoqueV2")]
     public interface IEstoqueServiceV2
     {
         [OperationContract]
@@ -61,6 +60,4 @@ namespace Estoque
         [OperationContract]
         int ConsultarEstoque(string NumeroProsuto);
     }
-
-
 }
